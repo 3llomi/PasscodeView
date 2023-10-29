@@ -23,6 +23,14 @@ public final class PatternPoint {
     private final int mRow;
     private final int mColumn;
 
+    public int getRow() {
+        return mRow;
+    }
+
+    public int getColumn() {
+        return mColumn;
+    }
+
     public PatternPoint(final int row, final int column) {
         mRow = row;
         mColumn = column;
